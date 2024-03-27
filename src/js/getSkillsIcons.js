@@ -9,9 +9,7 @@ const iconUrls = [
     'aws-icon'
 ];
 
-
 const iconContainer = document.getElementById('icon-container');
-
 
 iconUrls.forEach(iconUrl => {
 
