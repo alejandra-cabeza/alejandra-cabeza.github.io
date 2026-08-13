@@ -1,0 +1,53 @@
+:root {
+--bg: #eeeee9;
+--surface: #f8f8f4;
+--ink: #171a18;
+--muted: #747a74;
+--line: #d1d3cd;
+--accent: #6d5dfc;
+--accent-dark: #8fd400;
+}
+
+.dark {
+--bg: #101210;
+--surface: #171a17;
+--ink: #edf2ed;
+--muted: #8b938c;
+--line: #303530;
+--accent: #b6ff3b;
+--accent-dark: #b6ff3b;
+}
+
+body {
+background: var(--bg);
+color: var(--ink);
+}
+
+.mono {
+font-family: "Courier New", monospace;
+}
+
+.surface {
+background: var(--surface);
+}
+
+.muted {
+color: var(--muted);
+}
+
+.accent {
+color: var(--accent);
+}
+
+.hover-accent:hover {
+color: var(--accent);
+}
+
+.accent-bg:hover {
+background: var(--accent);
+color: #111;
+}
+
+.accent-border:hover {
+border-color: var(--accent);
+}
